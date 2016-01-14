@@ -1678,6 +1678,7 @@
 				GCC_OPTIMIZATION_LEVEL = 2;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = Freetype2;
+				SDKROOT = iphoneos;
 				WARNING_CFLAGS = (
 					"-Wextra",
 					"-Wall",
@@ -1693,8 +1694,10 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = Freetype2;
+				SDKROOT = iphoneos;
 				WARNING_CFLAGS = (
 					"-Wextra",
 					"-Wall",
@@ -1756,6 +1759,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -1779,6 +1783,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
